@@ -1,0 +1,27 @@
+.parent-container{
+     display: flex;
+     flex-wrap: wrap;
+     flex: 2 4 200;
+}
+.p{
+    flex-grow: 1;
+    row-gap: 10px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.p1{
+    background-color: red;
+   
+}
+.p2{
+    background-color: green; 
+}
+.p3{
+    background-color: blue; 
+}
+.p4{
+    background-color: yellow;
+    flex-grow: 4;
+    flex-basis: 100%; 
+}
